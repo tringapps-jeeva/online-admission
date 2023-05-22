@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background: white;
+  color: #555555;
+  font-size: 14px;
+}
+img {
+  width: 100%;
+  height: 100px;
+}
+.wrapper1 {
+  width: 90%;
+  /* margin:20%; */
+  margin-left: 10%;
+  margin-top: 3%;
+  /* background-color: red; */
+}
+
+.cards_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: yellow; */
+}
+
+.cards_wrap .card_item {
+  width: 30%;
+  padding: 10px;
+  margin-left: 7px;
+}
+
+.cards_wrap .card_inner {
+  background: #fff;
+  border: 3px solid black;
+}
+
+.cards_wrap .card_top {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  padding-bottom: 0;
+  background-color: blue;
+}
+
+.cards_wrap .card_bottom {
+  padding: 15px;
+}
+
+.cards_wrap .card_bottom .card_category {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cards_wrap .card_bottom .card_info {
+  padding: 15px;
+  margin: 7px 0;
+  border: 1px dashed #0071bc;
+}
+
+.cards_wrap .card_bottom .card_info .title {
+  color: #0071bc;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.cards_wrap .card_bottom .card_creator button {
+  text-align: center;
+  width: 270px;
+  height: 25px;
+  background-color: skyblue;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cards_wrap .card_bottom .card_creator button:hover {
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .cards_wrap .card_item {
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards_wrap .card_item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 528px) {
+  .cards_wrap .card_top {
+    height: auto;
+  }
+  .cards_wrap .card_item {
+    width: 100%;
+  }
+}

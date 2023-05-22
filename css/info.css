@@ -1,0 +1,82 @@
+instruction.css
+body{
+background-color:white;
+}
+.div1 ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:black;
+}
+.div1 li{
+float:left;
+}
+.div1 li a{
+display:block;
+color:white;
+text-align:center;
+font-size:16px;
+padding:10px 50px;
+text-decoration:none;
+}
+.div1 li a:hover{
+background-color:powderblue;
+}
+.active{
+background-color:grey;
+}
+
+.ug table,td{
+  border:1px solid black;
+border-collapse: collapse;
+ background-color:lightblue;
+ font-size:20px;
+}
+.ug td{
+ padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.ug a{
+text-decoration:none;
+color:blue;
+}
+
+.pg table,td{
+  border:1px solid black;
+border-collapse: collapse;
+ background-color:lightblue;
+ font-size:20px;
+
+}
+.pg a{
+text-decoration:none;
+color:blue;
+}
+.button{
+   border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 1s;
+  border-radius: 5px;
+        }
+.button{
+  background-color:blue;
+  color: white;
+  border: 2px solid blue;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+    box-shadow: 5px 5px 5px gray;
+    z-index: 2;
+}

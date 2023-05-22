@@ -1,0 +1,95 @@
+.records {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+table {
+    width: 90%;
+    text-align: center;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
+
+td {
+    padding: 10px;
+}
+
+thead {
+    font-weight: bold;
+}
+
+button {
+    background-color: lightseagreen;
+    padding: 3px;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.link {
+    color: black;
+    font-weight: bold;
+}
+
+.subjects {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.subjects li {
+    float: left;
+}
+
+.subjects li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subjects li button:hover:not(.active) {
+    background-color: grey;
+    color:white;
+} 
+.subjects button{
+background-color: white ;
+border-radius:0px !important;
+white-space: nowrap;
+padding: 5px;
+margin-right: 3px;
+width: 103px !important;
+cursor: pointer;
+}
+.focus:focus{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+#cs{
+    width: 130px !important;
+}
+.heading
+{
+    background-color: #b3cde0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+}
+.bullelements
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.info{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}

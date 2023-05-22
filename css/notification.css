@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+    text-align: center;
+  }
+  
+ .div1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+ .div1 li {
+    float: left;
+  }
+  
+ .div1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 50px;
+    text-decoration: none;
+  }
+  .div1 li a:hover {
+    background-color: powderblue;
+    color: black;
+  }
+  
+  .div1 .active {
+    background-color: grey;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .noti-cont{
+    display: flex;
+  }
+  .list{
+    text-align: left;
+    margin: 25px;
+    font-size: 25px;
+  }
+  .list li{
+    padding: 10px;
+  }
+  .list a{
+    padding: 10px;
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  img{
+    width:300px;
+  }
